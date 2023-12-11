@@ -13,8 +13,17 @@ card.addEventListener("dblclick", (e) => {
   card.classList.toggle("large");
 });
 
-// const card = document.querySelector("a:nth-of-type(2)");
+const button = document.querySelector("a:nth-of-type(2)");
 
-// card.addEventListener("click", (e) => {
-//   card.classList.toggle("large");
-// });
+button.addEventListener('click', function() {
+  button.classList.toggle('background');
+  console.log('background')
+});
+
+let btn = document.querySelector('a:nth-of-type(3)')
+
+btn.addEventListener('click', function() {
+  btn.classList.toggle('rotate');
+  console.log('rotate')
+
+});

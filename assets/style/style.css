@@ -92,5 +92,24 @@ a:nth-of-type(15) {
 }
 
 a:nth-of-type(2) {
+  position: relative;
+  background: purple;
+  color: var(--secondary);
+  border: purple;  
+}
 
+a.background {
+  background-color:hotpink; 
+}
+
+a:nth-of-type(3) {
+  position: relative;
+  background: blue;
+  color: var(--secondary);
+  border: rebeccapurple;  
+}
+
+.rotate {
+  transform: rotate(180deg); 
+  
 }
