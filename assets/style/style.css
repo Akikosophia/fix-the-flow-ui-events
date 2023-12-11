@@ -111,7 +111,6 @@ a:nth-of-type(3) {
 
 .rotate {
   transform: rotate(180deg); 
-  
 }
 
 a:nth-of-type(5) {
@@ -123,7 +122,14 @@ a:nth-of-type(5) {
 
 ul li a {
   background-color: transparent;
-  
 }
+
+#output a {
+  color: MediumVioletRed;
+}
+
+
+
+
 
 
