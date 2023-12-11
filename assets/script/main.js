@@ -27,3 +27,10 @@ btn.addEventListener('click', function() {
   console.log('rotate')
 
 });
+
+const count = document.querySelector("a:nth-of-type(5)");
+
+count.addEventListener("click", (event) => {
+  count.textContent = `Sprint: ${event.detail}`;
+});
+
