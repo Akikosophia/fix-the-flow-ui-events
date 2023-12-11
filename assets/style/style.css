@@ -40,7 +40,7 @@ a:hover {
 /* UI Event Classes */
 
 /* Jump animation on the interaction link */
-a:nth-of-type(12) {
+a:nth-of-type(9) {
   position: relative;
   background: var(--highlight-secondary);
   color: var(--secondary);
@@ -79,7 +79,7 @@ a:nth-of-type(12) {
 }
 
 /* Jouw animaties */
-a:nth-of-type(15) {
+a:nth-of-type(12) {
    position: relative;
    background: hotpink;
    color: var(--secondary);
@@ -119,6 +119,11 @@ a:nth-of-type(5) {
   background: darkgreen;
   color: var(--secondary);
   border: darkgreen;  
+}
+
+ul li a {
+  background-color: transparent;
+  
 }
 
 

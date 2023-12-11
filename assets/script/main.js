@@ -1,4 +1,4 @@
-let interaction = document.querySelector('a:nth-of-type(12)')
+let interaction = document.querySelector('a:nth-of-type(9)')
 
 interaction.addEventListener('click', jumpHandler)
 interaction.addEventListener('animationend', jumpHandler)
@@ -7,7 +7,7 @@ function jumpHandler() {
   interaction.classList.toggle('jump')
 }
 
-const card = document.querySelector("a:nth-of-type(15)");
+const card = document.querySelector("a:nth-of-type(12)");
 
 card.addEventListener("dblclick", (e) => {
   card.classList.toggle("large");
@@ -34,3 +34,36 @@ count.addEventListener("click", (event) => {
   count.textContent = `Sprint: ${event.detail}`;
 });
 
+const test = document.getElementById("test");
+
+// This handler will be executed only once when the cursor
+// moves over the unordered list
+test.addEventListener(
+  "mouseenter",
+  (event) => {
+    // highlight the mouseenter target
+    event.target.style.color = "green";
+
+    // reset the color after a short delay
+    setTimeout(() => {
+      event.target.style.color = "Plum";
+    }, 500);
+  },
+  false,
+);
+
+// This handler will be executed every time the cursor
+// is moved over a different list item
+test.addEventListener(
+  "mouseover",
+  (event) => {
+    // highlight the mouseover target
+    event.target.style.color = "PaleVioletRed";
+
+    // reset the color after a short delay
+    setTimeout(() => {
+      event.target.style.color = "lightgreen";
+    }, 500);
+  },
+  false,
+);
