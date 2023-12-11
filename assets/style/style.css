@@ -79,3 +79,18 @@ a:nth-of-type(12) {
 }
 
 /* Jouw animaties */
+a:nth-of-type(15) {
+   position: relative;
+   background: hotpink;
+   color: var(--secondary);
+   border: hotpink; 
+   transition: 1s ease-in-out;
+}
+
+.large {
+  transform: scale(1.3);
+}
+
+a:nth-of-type(2) {
+
+}
