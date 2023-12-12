@@ -91,3 +91,16 @@ side.addEventListener('mouseover', function() {
 
 });
 
+let development = document.querySelector('a:nth-of-type(4)')
+
+focus.addEventListener('focus', function() {
+  focus.classList.toggle('focus');
+  console.log('focus')
+
+});
+
+let sides = document.querySelector('a:nth-of-type(16)');
+
+sides.addEventListener("dblclick", (e) => {
+  sides.classList.toggle("skew");
+});
