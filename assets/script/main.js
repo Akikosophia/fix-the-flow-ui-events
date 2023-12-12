@@ -68,13 +68,6 @@ test.addEventListener(
   false,
 );
 
-let flipcard = document.querySelector('a:nth-of-type(16)')
-
-flipcard.addEventListener('mouseover', function() {
-  flipcard.classList.toggle('flipcard');
-  console.log('flipcard')
-
-});
 
 const output = document.querySelector("#output a");
 
@@ -89,3 +82,12 @@ document.addEventListener("scrollend", (event) => {
   console.log('scrollend')
 
 });
+
+let side = document.querySelector('a:nth-of-type(1)')
+
+side.addEventListener('mouseover', function() {
+  side.classList.toggle('side');
+  console.log('side')
+
+});
+
