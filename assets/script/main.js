@@ -68,7 +68,6 @@ test.addEventListener(
   false,
 );
 
-
 const output = document.querySelector("#output a");
 
 document.addEventListener("scroll", (event) => {
@@ -99,8 +98,3 @@ focus.addEventListener('focus', function() {
 
 });
 
-let sides = document.querySelector('a:nth-of-type(16)');
-
-sides.addEventListener("dblclick", (e) => {
-  sides.classList.toggle("skew");
-});

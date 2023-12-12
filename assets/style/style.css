@@ -80,6 +80,7 @@ a:nth-of-type(9) {
 
 /* Jouw animaties */
 
+
 a:nth-of-type(12) {
    position: relative;
    background: hotpink;
@@ -152,11 +153,13 @@ a:nth-of-type(4) {
   border: white;
 }
 
-a:nth-of-type(16){
+a:nth-of-type(14) {
+  position: relative;
   color: white;
-  background-color: lightskyblue;
-  border: white;
-  transition-duration:2s ease-in; 
-  transform: rotateZ(5deg);
+  background-color: lightseagreen;
 }
 
+a.rotation  {
+  transform: rotate(45deg);
+  
+}
