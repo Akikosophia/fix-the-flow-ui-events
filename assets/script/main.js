@@ -92,9 +92,8 @@ side.addEventListener('mouseover', function() {
 
 let development = document.querySelector('a:nth-of-type(4)')
 
-focus.addEventListener('focus', function() {
-  focus.classList.toggle('focus');
+development.addEventListener('dblclick', function() {
+  development.classList.toggle('focus');
   console.log('focus')
 
 });
-
